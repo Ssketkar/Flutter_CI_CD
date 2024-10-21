@@ -2,10 +2,12 @@ name: "Build, Test & Deploy"
 on:
   pull_request:
     branches:
+      - master
       - main
       - 'feature/*'
   push:
     branches:
+      - master
       - main
       - 'feature/*'
 jobs:  # Telling what jobs we need to happen
